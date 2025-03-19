@@ -1,5 +1,8 @@
 # ClavBin shell assistent repo
 ==================
+
+
+
 ClavBin é uma solução robusta e multifacetada voltada para a segurança cibernética, oferecendo funcionalidades de antivírus, firewall e escaneamento de rede diretamente no terminal. Desenvolvida com Bash e utilizando o motor de antivírus ClamAV, a ferramenta foi projetada para ambientes onde a eficiência, a personalização e o controle granular são essenciais. Sua arquitetura modular permite uma integração fluida com outras soluções de segurança, tornando-a uma escolha poderosa para administradores de sistemas e profissionais de segurança cibernética.
 Funcionalidades:
 
