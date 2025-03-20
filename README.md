@@ -1,48 +1,10 @@
-# ClavBin
-
-**ClavBin** é uma ferramenta de segurança e automação de terminal desenvolvida em **Bash**. Ela combina funcionalidades de firewall e assistente de funções, permitindo que os usuários realizem tarefas de segurança, monitoramento de rede e automação diretamente pelo terminal, de maneira eficiente e sem a necessidade de interfaces gráficas. Além disso, oferece um controle granular sobre as conexões de rede e facilita a configuração de proxies para anonimato.
-
-## Funcionalidades
-
-- **Firewall em Terminal**: Controla o tráfego de rede no sistema, permitindo ou bloqueando pacotes com base em regras de filtragem configuráveis. O firewall é gerido diretamente via terminal, oferecendo flexibilidade e alto desempenho.
-  
-- **Assistente de Funções**: Oferece uma série de funções de automação para facilitar a administração do sistema, como verificações de segurança, monitoramento de tráfego de rede e ajustes rápidos em configurações de rede.
-
-- **Escaneamento Antivírus (Integrado com ClamAV)**: Realiza varreduras no sistema em busca de malwares e vírus, utilizando o motor **ClamAV** para garantir que o ambiente esteja livre de ameaças.
-
-- **Integração com Proxychains**: Permite que o tráfego de rede seja roteado através de uma cadeia de proxies configuráveis, garantindo anonimato e maior segurança durante a navegação.
-
-## Instalação
-
-### Pré-requisitos
-
-- **ClamAV**: A ferramenta utiliza **ClamAV** para escaneamento de vírus e malwares. Certifique-se de tê-lo instalado antes de executar ClavBin.
-  
-- **Dependências de Sistema**:
-  - `iptables` (para configuração do firewall)
-  - `Proxychains` (se desejar usar a funcionalidade de proxy)
-
-### Passos para Instalação
-
-1. **Clone o repositório**:
-
-   Clone o repositório do GitHub para o seu sistema:
-   ```bash
-   git clone https://github.com/seu-usuario/clavbin.git
-   cd ClavBin
-   ls
-   chmod +x ClavBin.sh
-   ./ClavBin.sh
-
-   ````
-
-  # Contribuindo para clavBin
+# Contribuindo para clavBin
 
 Obrigado por considerar contribuir para o **clavBin**! Este guia fornece diretrizes para garantir que sua contribuição seja integrada de maneira eficiente e alinhada com os padrões do projeto.
 
-##  Como Contribuir para o projeto
+## 🛠️ Como Contribuir
 
-### Fork e Clone o Repositório
+### 1️⃣ Fork e Clone o Repositório
 
 1. Faça um fork deste repositório para sua conta no GitHub.
 2. Clone o repositório forkado para sua máquina:
@@ -89,20 +51,20 @@ git checkout -b minha-feature
 2. Acesse o repositório original no GitHub e crie um Pull Request.
 3. Aguarde a revisão e esteja pronto para fazer ajustes, se necessário.
 
-##  Diretrizes de Código
+## ✅ Diretrizes de Código
 
 - **Legibilidade:** Código bem estruturado e comentado.
 - **Segurança:** Evite hardcoding de credenciais e siga boas práticas.
 - **Desempenho:** Busque eficiência e evite repetições desnecessárias.
 
-##  Sugestões de Contribuição
+## 📌 Sugestões de Contribuição
 
 - Melhorias no sistema de segurança e firewall.
 - Implementação de novos módulos de análise.
 - Otimização do código para maior eficiência.
 - Criação de testes automatizados.
 
-##  Contato
+## 🤝 Contato
 
 Caso tenha dúvidas, abra uma *issue* ou entre em contato pelo GitHub!
 
