@@ -106,5 +106,5 @@ git checkout -b minha-feature
 
 Caso tenha dúvidas, abra uma *issue* ou entre em contato pelo GitHub!
 
-Vamos juntos tornar o **clavBin** ainda mais robusto! 🚀
+Vamos juntos tornar o **clavBin** ainda mais robusto! 
 
