@@ -9,7 +9,7 @@
 
 
 
-![Screenshot](./Captura%20de%20tela_2025-04-05_23-03-46.png)
+![Screenshot](./ClamBin.png)
 
 
 
