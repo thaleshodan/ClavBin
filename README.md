@@ -1,5 +1,14 @@
 # ClavBin
 
+
+
+![Screenshot](./Captura%20de%20tela_2025-04-05_23-03-46.png)
+
+
+
+
+
+
 **ClavBin** é uma ferramenta de segurança e automação de terminal desenvolvida em **Bash**. Ela combina funcionalidades de firewall e assistente de funções, permitindo que os usuários realizem tarefas de segurança, monitoramento de rede e automação diretamente pelo terminal, de maneira eficiente e sem a necessidade de interfaces gráficas. Além disso, oferece um controle granular sobre as conexões de rede e facilita a configuração de proxies para anonimato.
 
 ## Funcionalidades
