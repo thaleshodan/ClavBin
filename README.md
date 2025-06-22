@@ -1,116 +1,127 @@
-### ClavBin
+## Firewalll Bash Tool
 
-Firewall Bash Tool
 
-ClavBin is a terminal-based security and automation tool developed in Bash. It combines firewall features with a function assistant, allowing users to perform security tasks, network monitoring, and automation directly from the terminal—efficiently and without the need for graphical interfaces. Additionally, it provides fine-grained control over network connections and simplifies proxy configuration for anonymity.
-Features
+**ClavBin**is a terminal automation and security tool written in **Bash**. It combines firewall and function wizard functionality, allowing users to perform security, network monitoring, and automation tasks directly from the terminal, efficiently and without the need for graphical interfaces. In addition, it offers granular control over network connections and makes it easy to configure proxies for anonymity.
 
-    Terminal Firewall: Controls system network traffic by allowing or blocking packets based on configurable filtering rules. The firewall is managed directly through the terminal, offering flexibility and high performance.
 
-    Function Assistant: Includes a set of automation functions to make system administration easier, such as security checks, network traffic monitoring, and quick adjustments to network settings.
 
-    Antivirus Scanning (Integrated with ClamAV): Performs system scans for malware and viruses using the ClamAV engine to ensure a clean environment.
 
-    Proxychains Integration: Allows network traffic to be routed through a configurable chain of proxies, ensuring anonymity and increased security during online operations.
 
-Installation
-Prerequisites
 
-    ClamAV: The tool uses ClamAV to scan for viruses and malware. Make sure it's installed before running ClavBin.
 
-    System Dependencies:
 
-        iptables (for firewall configuration)
+## Features
 
-        Proxychains (if you want to use the proxy feature)
+- **Terminal Firewall**: Controls network traffic on the system, allowing or blocking packets based on configurable filtering rules. The firewall is managed directly via the terminal, offering flexibility and high performance.
 
-Installation Steps
+- **Function Wizard**: Offers a series of automation functions to facilitate system administration, such as security checks, network traffic monitoring and quick adjustments to network settings.
 
-    Clone the repository:
+- **Antivirus Scanning (Integrated with ClamAV)**: Scans the system for malware and viruses, using the **ClamAV** engine to ensure that the environment is free of threats.
 
-    Clone the GitHub repository to your system:
+- **Integration with Proxychains**: Allows network traffic to be routed through a chain of configurable proxies, ensuring anonymity and greater security during browsing.
 
-   ## git clone https://github.com/your-username/clavbin.git
-   cd ClavBin
-   ls
-   chmod +x ClavBin.sh
-   ./ClavBin.sh
+## Installation
 
-Contributing to ClavBin
+### Prerequisites
 
-Thank you for considering contributing to ClavBin! This guide provides directions to ensure your contribution is integrated smoothly and aligned with the project’s standards.
-How to Contribute
-Fork and Clone the Repository
+- **ClamAV**: The tool uses **ClamAV** for virus and malware scanning. Make sure you have it installed before running ClavBin.
 
-    Fork this repository to your GitHub account.
+- **System Dependencies**:
+- iptables (for firewall configuration)
+- Proxychains (if you want to use proxy functionality)
 
-    Clone the forked repository to your local machine:
+### Installation Steps
 
+1. **Clone the repository**:
+
+Clone the repository from GitHub to your system:
+
+bash
+git clone https://github.com/your-username/clavbin.git
+cd ClavBin
+ls
+chmod +x ClavBin.sh
+./ClavBin.sh
+
+# Contributing to clavBin
+
+Thank you for considering contributing to **clavBin**! This guide provides guidelines to ensure that your contribution is integrated efficiently and in line with the project's standards.
+
+## How to Contribute to the Project
+
+### Fork and Clone the Repository
+
+1. Fork this repository to your GitHub account.
+
+2. Clone the forked repository to your machine:
+
+bash
 git clone https://github.com/your-username/clavBin.git
 
-Navigate to the project directory:
+3. Navigate to the project directory:
 
-   ### cd clavBin
+bash
+cd clavBin
 
-Creating a Branch
+### Creating a Branch
 
-Always work in a separate branch for your feature or bug fix:
+Always work on a separate branch for your feature or fix:
 
+bash
 git checkout -b my-feature
 
-Implementing Changes
+###  Implementando Alterações
 
-    Keep your code modular and well-documented.
+- Mantenha seu código modular e bem documentado.
+- Siga os padrões do projeto para estrutura e estilo.
+- Teste suas alterações antes de enviar.
 
-    Follow the project's structure and style guidelines.
+### Committing Changes
 
-    Test your changes before submitting.
+- Use descriptive and standardized commit messages:
 
-Committing Changes
+bash
+git commit -m "feat: add support for automatic firewall configuration"
 
-    Use clear, conventional commit messages:
-### git commit -m "feat: add automatic firewall configuration support"
+- Here are some useful prefixes for commits:
 
-    Some useful prefixes for commits:
+- feat: → New feature
 
-        feat: → New feature
+- fix: → Bug fix
 
-        fix: → Bug fix
+- docs: → Documentation update
 
-        docs: → Documentation update
+- refactor: → Code improvements without changing functionality
 
-        refactor: → Code improvements with no functional change
+- test: → Add or update tests
 
-        test: → Add or update tests
+### Submitting a Pull Request (PR)
 
-Submitting a Pull Request (PR)
+1. Push your changes to the remote repository:
 
-    Push your changes to the remote repository:
+bash
+git push origin my-feature
 
-    git push origin my-feature
+2. Access the original repository on GitHub and create a Pull Request.
 
-    Go to the original repository on GitHub and open a Pull Request.
+3. Wait for the review and be ready to make adjustments if necessary.
 
-    Wait for a review and be ready to make adjustments if needed.
+## Code Guidelines
 
-Code Guidelines
+- **Readability:** Well-structured and commented code.
 
-    Readability: Clean, well-structured, and commented code.
+- **Security:** Avoid hardcoding credentials and follow best practices.
+- **Performance:** Seek efficiency and avoid unnecessary repetitions.
 
-    Security: Avoid hardcoding credentials; follow security best practices.
+## Contribution Suggestions
 
-    Performance: Aim for efficiency and avoid unnecessary repetition.
+- Improvements to the security and firewall system.
+- Implementation of new analysis modules.
+- Optimization of the code for greater efficiency.
+- Creation of automated tests.
 
-Contribution Ideas
+## Contact
 
-    Improve the firewall and security system.
+If you have any questions, open an *issue* or contact us on GitHub!
 
-    Implement new analysis modules.
-
-    Optimize the code for better performance.
-
-    Add automated test coverage.
-
-Contact
-
-If you have any questions, open an issue or reach out through GitHub!
+Let's make **clavBin** even more robust together!
