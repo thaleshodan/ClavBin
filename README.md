@@ -1,77 +1,77 @@
 ### ClavBin
-Bash-Based Firewall Tool
 
-ClavBin is a terminal-based security and automation tool developed in Bash. It combines firewall functionality with a system assistant, allowing users to perform security tasks, network monitoring, and automation efficiently—directly from the terminal, without the need for graphical interfaces. It also offers fine-grained control over network connections and simplifies proxy configuration for anonymity.
+Firewall Bash Tool
+
+ClavBin is a terminal-based security and automation tool developed in Bash. It combines firewall features with a function assistant, allowing users to perform security tasks, network monitoring, and automation directly from the terminal—efficiently and without the need for graphical interfaces. Additionally, it provides fine-grained control over network connections and simplifies proxy configuration for anonymity.
 Features
 
-    Terminal-Based Firewall: Controls system network traffic by allowing or blocking packets based on configurable filtering rules. The firewall is fully managed via the terminal, providing flexibility and high performance.
+    Terminal Firewall: Controls system network traffic by allowing or blocking packets based on configurable filtering rules. The firewall is managed directly through the terminal, offering flexibility and high performance.
 
-    System Assistant: Offers a collection of automation functions to support system administration tasks such as security checks, network traffic monitoring, and quick network configuration tweaks.
+    Function Assistant: Includes a set of automation functions to make system administration easier, such as security checks, network traffic monitoring, and quick adjustments to network settings.
 
-    Antivirus Scanning (Integrated with ClamAV): Scans the system for malware and viruses using the ClamAV engine to help ensure a threat-free environment.
+    Antivirus Scanning (Integrated with ClamAV): Performs system scans for malware and viruses using the ClamAV engine to ensure a clean environment.
 
-    Proxychains Integration: Routes network traffic through a configurable chain of proxies, providing anonymity and enhanced security while browsing or performing network operations.
+    Proxychains Integration: Allows network traffic to be routed through a configurable chain of proxies, ensuring anonymity and increased security during online operations.
 
 Installation
-Requirements
+Prerequisites
 
-    ClamAV: Used for virus and malware scanning. Make sure it's installed before running ClavBin.
+    ClamAV: The tool uses ClamAV to scan for viruses and malware. Make sure it's installed before running ClavBin.
 
     System Dependencies:
 
         iptables (for firewall configuration)
 
-        Proxychains (for optional proxy support)
+        Proxychains (if you want to use the proxy feature)
 
 Installation Steps
 
-    Clone the Repository:
+    Clone the repository:
 
     Clone the GitHub repository to your system:
 
-    git clone https://github.com/your-username/clavbin.git
-    cd ClavBin
-    ls
-    chmod +x ClavBin.sh
-    ./ClavBin.sh
+   ## git clone https://github.com/your-username/clavbin.git
+   cd ClavBin
+   ls
+   chmod +x ClavBin.sh
+   ./ClavBin.sh
 
 Contributing to ClavBin
 
-Thank you for considering contributing to ClavBin! This guide provides the steps and best practices to ensure your contribution is smoothly integrated and aligned with the project's standards.
+Thank you for considering contributing to ClavBin! This guide provides directions to ensure your contribution is integrated smoothly and aligned with the project’s standards.
 How to Contribute
 Fork and Clone the Repository
 
     Fork this repository to your GitHub account.
 
-    Clone the forked repository to your machine:
+    Clone the forked repository to your local machine:
 
 git clone https://github.com/your-username/clavBin.git
 
-Navigate into the project directory:
+Navigate to the project directory:
 
-    cd clavBin
+   ### cd clavBin
 
-Create a Feature Branch
+Creating a Branch
 
-Always work on a separate branch for your feature or fix:
+Always work in a separate branch for your feature or bug fix:
 
 git checkout -b my-feature
 
-Implement Your Changes
+Implementing Changes
 
     Keep your code modular and well-documented.
 
-    Follow the project’s structure and style conventions.
+    Follow the project's structure and style guidelines.
 
     Test your changes before submitting.
 
-Commit Your Changes
+Committing Changes
 
-    Use clear, standardized commit messages:
+    Use clear, conventional commit messages:
+### git commit -m "feat: add automatic firewall configuration support"
 
-    git commit -m "feat: add automatic firewall configuration support"
-
-    Suggested commit prefixes:
+    Some useful prefixes for commits:
 
         feat: → New feature
 
@@ -79,38 +79,38 @@ Commit Your Changes
 
         docs: → Documentation update
 
-        refactor: → Code improvements without feature changes
+        refactor: → Code improvements with no functional change
 
-        test: → Adding or updating tests
+        test: → Add or update tests
 
-Submit a Pull Request (PR)
+Submitting a Pull Request (PR)
 
     Push your changes to the remote repository:
 
     git push origin my-feature
 
-    Open a Pull Request on the original GitHub repository.
+    Go to the original repository on GitHub and open a Pull Request.
 
-    Wait for review and be ready to make adjustments if needed.
+    Wait for a review and be ready to make adjustments if needed.
 
 Code Guidelines
 
-    Readability: Keep your code clean and well-commented.
+    Readability: Clean, well-structured, and commented code.
 
-    Security: Avoid hardcoding credentials and follow security best practices.
+    Security: Avoid hardcoding credentials; follow security best practices.
 
-    Performance: Strive for efficient code and avoid redundancy.
+    Performance: Aim for efficiency and avoid unnecessary repetition.
 
 Contribution Ideas
 
-    Enhancements to the firewall and security system.
+    Improve the firewall and security system.
 
-    Implementation of new analysis modules.
+    Implement new analysis modules.
 
-    Code optimization for better performance.
+    Optimize the code for better performance.
 
-    Adding automated tests.
+    Add automated test coverage.
 
 Contact
 
-If you have questions, feel free to open an issue or reach out via GitHub.
+If you have any questions, open an issue or reach out through GitHub!
