@@ -1,121 +1,116 @@
-# ClavBin
+### ClavBin
+Bash-Based Firewall Tool
 
+ClavBin is a terminal-based security and automation tool developed in Bash. It combines firewall functionality with a system assistant, allowing users to perform security tasks, network monitoring, and automation efficiently—directly from the terminal, without the need for graphical interfaces. It also offers fine-grained control over network connections and simplifies proxy configuration for anonymity.
+Features
 
-## Firewalll Bash Tool
+    Terminal-Based Firewall: Controls system network traffic by allowing or blocking packets based on configurable filtering rules. The firewall is fully managed via the terminal, providing flexibility and high performance.
 
+    System Assistant: Offers a collection of automation functions to support system administration tasks such as security checks, network traffic monitoring, and quick network configuration tweaks.
 
-**ClavBin** é uma ferramenta de segurança e automação de terminal desenvolvida em **Bash**. Ela combina funcionalidades de firewall e assistente de funções, permitindo que os usuários realizem tarefas de segurança, monitoramento de rede e automação diretamente pelo terminal, de maneira eficiente e sem a necessidade de interfaces gráficas. Além disso, oferece um controle granular sobre as conexões de rede e facilita a configuração de proxies para anonimato.
+    Antivirus Scanning (Integrated with ClamAV): Scans the system for malware and viruses using the ClamAV engine to help ensure a threat-free environment.
 
+    Proxychains Integration: Routes network traffic through a configurable chain of proxies, providing anonymity and enhanced security while browsing or performing network operations.
 
+Installation
+Requirements
 
+    ClamAV: Used for virus and malware scanning. Make sure it's installed before running ClavBin.
 
-![Screenshot](./ClamBin.png)
+    System Dependencies:
 
+        iptables (for firewall configuration)
 
+        Proxychains (for optional proxy support)
 
-## Funcionalidades
+Installation Steps
 
-- **Firewall em Terminal**: Controla o tráfego de rede no sistema, permitindo ou bloqueando pacotes com base em regras de filtragem configuráveis. O firewall é gerido diretamente via terminal, oferecendo flexibilidade e alto desempenho.
-  
-- **Assistente de Funções**: Oferece uma série de funções de automação para facilitar a administração do sistema, como verificações de segurança, monitoramento de tráfego de rede e ajustes rápidos em configurações de rede.
+    Clone the Repository:
 
-- **Escaneamento Antivírus (Integrado com ClamAV)**: Realiza varreduras no sistema em busca de malwares e vírus, utilizando o motor **ClamAV** para garantir que o ambiente esteja livre de ameaças.
+    Clone the GitHub repository to your system:
 
-- **Integração com Proxychains**: Permite que o tráfego de rede seja roteado através de uma cadeia de proxies configuráveis, garantindo anonimato e maior segurança durante a navegação.
+    git clone https://github.com/your-username/clavbin.git
+    cd ClavBin
+    ls
+    chmod +x ClavBin.sh
+    ./ClavBin.sh
 
-## Instalação
+Contributing to ClavBin
 
-### Pré-requisitos
+Thank you for considering contributing to ClavBin! This guide provides the steps and best practices to ensure your contribution is smoothly integrated and aligned with the project's standards.
+How to Contribute
+Fork and Clone the Repository
 
-- **ClamAV**: A ferramenta utiliza **ClamAV** para escaneamento de vírus e malwares. Certifique-se de tê-lo instalado antes de executar ClavBin.
-  
-- **Dependências de Sistema**:
-  - `iptables` (para configuração do firewall)
-  - `Proxychains` (se desejar usar a funcionalidade de proxy)
+    Fork this repository to your GitHub account.
 
-### Passos para Instalação
+    Clone the forked repository to your machine:
 
-1. **Clone o repositório**:
+git clone https://github.com/your-username/clavBin.git
 
-   Clone o repositório do GitHub para o seu sistema:
-   ```bash
-   git clone https://github.com/seu-usuario/clavbin.git
-   cd ClavBin
-   ls
-   chmod +x ClavBin.sh
-   ./ClavBin.sh
+Navigate into the project directory:
 
-   ````
+    cd clavBin
 
-  # Contribuindo para clavBin
+Create a Feature Branch
 
-Obrigado por considerar contribuir para o **clavBin**! Este guia fornece diretrizes para garantir que sua contribuição seja integrada de maneira eficiente e alinhada com os padrões do projeto.
+Always work on a separate branch for your feature or fix:
 
-##  Como Contribuir para o projeto
+git checkout -b my-feature
 
-### Fork e Clone o Repositório
+Implement Your Changes
 
-1. Faça um fork deste repositório para sua conta no GitHub.
-2. Clone o repositório forkado para sua máquina:
-   ```bash
-   git clone https://github.com/seu-usuario/clavBin.git
-   ```
-3. Navegue até o diretório do projeto:
-   ```bash
-   cd clavBin
-   ```
+    Keep your code modular and well-documented.
 
-### 2️⃣ Criando uma Branch
+    Follow the project’s structure and style conventions.
 
-Sempre trabalhe em uma branch separada para sua feature ou correção:
-```bash
-git checkout -b minha-feature
-```
+    Test your changes before submitting.
 
-### 3️⃣ Implementando Alterações
+Commit Your Changes
 
-- Mantenha seu código modular e bem documentado.
-- Siga os padrões do projeto para estrutura e estilo.
-- Teste suas alterações antes de enviar.
+    Use clear, standardized commit messages:
 
-### 4️⃣ Commitando Mudanças
+    git commit -m "feat: add automatic firewall configuration support"
 
-- Utilize mensagens de commit descritivas e padronizadas:
-  ```bash
-  git commit -m "feat: adiciona suporte a configuração automática de firewall"
-  ```
-- Seguem alguns prefixos úteis para commits:
-  - `feat:` → Nova funcionalidade
-  - `fix:` → Correção de bug
-  - `docs:` → Atualização de documentação
-  - `refactor:` → Melhorias de código sem alterar funcionalidade
-  - `test:` → Adição ou atualização de testes
+    Suggested commit prefixes:
 
-### 5️⃣ Enviando um Pull Request (PR)
+        feat: → New feature
 
-1. Suba suas alterações para o repositório remoto:
-   ```bash
-   git push origin minha-feature
-   ```
-2. Acesse o repositório original no GitHub e crie um Pull Request.
-3. Aguarde a revisão e esteja pronto para fazer ajustes, se necessário.
+        fix: → Bug fix
 
-##  Diretrizes de Código
+        docs: → Documentation update
 
-- **Legibilidade:** Código bem estruturado e comentado.
-- **Segurança:** Evite hardcoding de credenciais e siga boas práticas.
-- **Desempenho:** Busque eficiência e evite repetições desnecessárias.
+        refactor: → Code improvements without feature changes
 
-##  Sugestões de Contribuição
+        test: → Adding or updating tests
 
-- Melhorias no sistema de segurança e firewall.
-- Implementação de novos módulos de análise.
-- Otimização do código para maior eficiência.
-- Criação de testes automatizados.
+Submit a Pull Request (PR)
 
-##  Contato
+    Push your changes to the remote repository:
 
-Caso tenha dúvidas, abra uma *issue* ou entre em contato pelo GitHub!
+    git push origin my-feature
 
-Vamos juntos tornar o **clavBin** ainda mais robusto! 
+    Open a Pull Request on the original GitHub repository.
 
+    Wait for review and be ready to make adjustments if needed.
+
+Code Guidelines
+
+    Readability: Keep your code clean and well-commented.
+
+    Security: Avoid hardcoding credentials and follow security best practices.
+
+    Performance: Strive for efficient code and avoid redundancy.
+
+Contribution Ideas
+
+    Enhancements to the firewall and security system.
+
+    Implementation of new analysis modules.
+
+    Code optimization for better performance.
+
+    Adding automated tests.
+
+Contact
+
+If you have questions, feel free to open an issue or reach out via GitHub.
